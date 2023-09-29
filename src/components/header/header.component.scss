@@ -1,0 +1,26 @@
+.header {
+  background-color: lightblue;
+  color: rgb(145, 37, 37);
+  font-size: large;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+  }
+
+  .profile-image, .profile-contact {
+    display: inline-block;
+  }
+
+  .profile-image {
+    width: 18%;
+    margin: 8px 16px;
+    border-radius: 50%;
+    border: 2px double black;
+    overflow: hidden;
+
+    .avatar {
+      width: 100%
+    }
+  }
+}
